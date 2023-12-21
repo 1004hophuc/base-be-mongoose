@@ -1,0 +1,22 @@
+@url_dev=http://localhost:3020/v1/api
+
+# POST {{url_dev}}/location/create/province
+# Content-Type: application/json
+
+# GET  {{url_dev}}/product/drafts/all
+# Content-Type: application/json
+# x-api-key: e1eca3fb77c98cc4c65a6e31acdc31d6e36986968080a6df25524b6a85bdfc799306d833d4529b6923c92fe570fdb192265ebaaf31f043ea02f3bf23cc182852
+# x-client-id: 6579d2fddf860ac060a9948a
+# authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTc5ZDJmZGRmODYwYWMwNjBhOTk0OGEiLCJlbWFpbCI6ImhvcGh1YzEwMDRAZ21haWwuY29tIiwiaWF0IjoxNzAyNjI0ODUyLCJleHAiOjE3MDI3OTc2NTJ9.JPzuKIZe4Te8k_cGu1huxTWPL7KQwypi41gpvq9LJH0
+
+# GET {{url_dev}}/location/list/province
+# Content-Type: application/json
+
+# GET {{url_dev}}/location/list/district/92
+# Content-Type: application/json
+
+# GET {{url_dev}}/location/list/ward/92/916
+# Content-Type: application/json
+
+GET {{url_dev}}/location/list/church?provinceId=92&districtId=916&wardId=31141
+Content-Type: application/json
